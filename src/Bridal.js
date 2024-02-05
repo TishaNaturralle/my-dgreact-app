@@ -1,7 +1,12 @@
 import React from "react";
+import "./Bridal.css"
+
+
 
 export default function Bridal(){
-    return <h2>
-        Hello from bridal department
-    </h2>
+    return <div className="Bridal">
+  
+   Hello from Diana Gladioli 
+    </div>
+
 };
