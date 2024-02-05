@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import Bridal from "./Bridal";
+import Home from "./Home";
+
 
 
 function App() {
@@ -9,9 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+
+       <Home/>
        
-       <Bridal/>
-     
       </header>
       <footer>
         This project was coded by {" "}
