@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react";
+import { Route } from 'react-router-dom';
+
+import {Switch} from 'react-router-dom';
+
+
 import Home from "./Home";
 import Bridal from "./Bridal";
-import EveningMatricWear from './EveningMatricWear';
+import EveMatricWear from "./EveMatricWear";
+
 
 
 
@@ -15,7 +21,14 @@ function App() {
 
        <Home/>
        <Bridal/>
-       <EveningMatricWear/>
+       <EveMatricWear/>
+       <Switch>
+  <Route Home="./home" component={Home} />
+  <Route Bridal="./bridal" component={Bridal} />
+  <Route EveMatricWear="./EveMatricWear" component={EveMatricWear} />
+  
+  
+</Switch>
        
       </header>
       <footer>

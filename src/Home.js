@@ -1,11 +1,17 @@
 import React from "react";
-import "./Home.css"
+import "./Home"
 import "./Bridal"
-import "./EveningMatricWear"
+import "./EveMatricWear"
+
+
+
+
+
 
 
 export default function Home(){
-    return <div className="Home">
+    return <div>
+      <h1>Home Page</h1> 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Diana Gladioli</a>
@@ -35,7 +41,7 @@ export default function Home(){
 
    <h1>Hello from Diana Gladioli </h1>
    </div>
-   <div className="IntroContainer">
+     <div className="IntroContainer">
    <h2>Ignite Your Passion</h2>
   
     </div>

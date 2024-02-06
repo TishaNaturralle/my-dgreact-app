@@ -3,17 +3,37 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "bootstrap/dist/css/bootstrap.css";
 import App from './App';
+import Home from './Home';
 import Bridal from './Bridal';
-import EveningMatricWear from './EveningMatricWear';
+import EveMatricWear from './EveMatricWear';
 
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {BrowserRouter as Switch} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  
     <App />
+    <Switch>
+  <Route Home="./home" component={Home} />
+  <Route Bridal="./bridal" component={Bridal} />
+  <Route EveMatricWear="./EveMatricWear" component={EveMatricWear} />
+  
+  
+</Switch>
+    <router>
+      <Router/>
+    <Home/>
   <Bridal/>
-  <EveningMatricWear/>
+  <EveMatricWear/>
+  
+
+  </router>
+
+  
+
   </React.StrictMode>
 );
 

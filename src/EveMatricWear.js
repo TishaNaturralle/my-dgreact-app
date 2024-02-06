@@ -9,10 +9,10 @@ import "./Bridal.css";
   
  
 
-export default function Bridal(){
+export default function EveMatricWear(){
     return <div >
 
-    <h1>Bridal</h1>
+    <h1>sparkles</h1>
     
     
   
