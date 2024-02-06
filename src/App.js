@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import Home from "./Home";
+import Bridal from "./Bridal";
+import EveningMatricWear from './EveningMatricWear';
 
 
 
@@ -12,6 +14,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
        <Home/>
+       <Bridal/>
+       <EveningMatricWear/>
        
       </header>
       <footer>

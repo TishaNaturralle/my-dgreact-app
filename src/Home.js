@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css"
-
+import "./Bridal"
+import "./EveningMatricWear"
 
 
 export default function Home(){
